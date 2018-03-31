@@ -1,0 +1,133 @@
+html, body, head, .designs {
+	margin: 0;
+  	padding: 0;
+  	width: 100%;
+ 	height: 100%;
+
+}
+
+body {
+  font-family: 'Asap', Arial, sans-serif;
+  font-size: 16px;
+  color: #2d3c49;
+}
+
+.head1 {
+	display: flex;
+  	flex-wrap: wrap;
+  	margin: 0;
+}
+
+.right {
+	flex: 1;
+	text-align: right;
+	order: 1;
+	padding-right: 5em;
+	margin: 0;
+}
+
+.right h1 {
+	font-size: 50px;
+	padding-bottom: 0;
+}
+
+#logo {
+	width: 120px;
+	height: 110px;
+	padding: 2em 2em 0 5em;
+}
+
+hr {
+	width: 90%;
+    padding: 0 1em;
+    border-style: solid;
+    border-width: 3px;
+	border-color: #7d97ad;
+	display: block;
+	margin: 0 auto;
+}
+
+.mainpic {
+	width: 100%;
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	text-align: center;
+}
+
+#designPic {
+	width: 80%;
+	padding: 1em;
+	height: 80%;
+}
+
+.flex-container {
+	display: flex;
+  	flex-wrap: wrap;
+  	width: 100%;
+  	justify-content: center;
+}
+
+.visuals {
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	text-align: center;
+}
+
+.slots {
+	width: 350px;
+	padding: 1em;
+	justify-content: center;
+	text-align: center;
+	color: #2d3c49;
+	font-size: 26px;
+}
+
+.worktitle {
+	color: #7d97ad;
+	font-size: 40px;
+	padding: 1em 0 1em 3.5em;
+	margin: 0;
+}
+
+@media screen and (max-width: 360px) {
+	.worktitle {
+		font-size: 26px;
+	}
+
+	hr{
+		width: 80%;
+	}
+
+	.right {
+		text-align: center;
+		padding-left: 5.5em;
+	}
+	#logo {
+		display: block;
+		margin-left: 2em;
+	}
+	
+	.slots {
+		display: flex;
+	  	flex-wrap: wrap;
+		width: 80%;
+		padding: 1em;
+		justify-content: center;
+		text-align: center;
+		color: #2d3c49;
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 800px) and (min-width: 361px) {
+	.worktitle {
+		font-size: 40px;
+		padding-left: 6em;
+	}
+
+	hr {
+		width: 80%;
+	}
+}
