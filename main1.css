@@ -1,7 +1,7 @@
 html, body, head, .designs {
 	margin: 0;
-  	padding: 0;
-  	width: 100%;
+  padding: 0;
+  width: 100%;
  	height: 100%;
 
 }
@@ -11,11 +11,38 @@ body {
   font-size: 16px;
   color: #2d3c49;
 }
+#nav{
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	height: 3%;
+}
+#nav a {
+	color: darkturquoise;
+	text-decoration: none;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: #fff;
+	text-shadow: 0.5px 0.5px darkslategrey;
+}
 
+#nav ul {
+	list-style: none;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	display: inline;
+}
 .head1 {
 	display: flex;
-  	flex-wrap: wrap;
-  	margin: 0;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
 .right {
@@ -39,9 +66,9 @@ body {
 
 hr {
 	width: 90%;
-    padding: 0 1em;
-    border-style: solid;
-    border-width: 3px;
+  padding: 0 1em;
+  border-style: solid;
+  border-width: 3px;
 	border-color: #7d97ad;
 	display: block;
 	margin: 0 auto;
@@ -50,9 +77,9 @@ hr {
 .mainpic {
 	width: 100%;
 	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  	text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 #designPic {
@@ -63,16 +90,16 @@ hr {
 
 .flex-container {
 	display: flex;
-  	flex-wrap: wrap;
-  	width: 100%;
-  	justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 }
 
 .visuals {
-  	display: flex;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  	text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .slots {
@@ -83,21 +110,51 @@ hr {
 	color: #2d3c49;
 	font-size: 26px;
 }
+.slots a{
+	text-decoration: none;
+}
 
-.worktitle {
+.designs{
+	display: inline-block;
+	text-align: center;
+}
+#worktitle {
 	color: #7d97ad;
 	font-size: 40px;
-	padding: 1em 0 1em 3.5em;
-	margin: 0;
+}
+footer{
+	width: 100%;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: darkturquoise;
+  color: white;
+  text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#linked{
+	flex: 1;
+	order: 1;
+	text-align: right;
+	padding: 1em;
+}
+
+#contact{
+	padding-left: 1em;
+}
+#last-img{
+	margin-bottom: 2em;
 }
 
 @media screen and (max-width: 360px) {
-	.worktitle {
+	#worktitle {
 		font-size: 26px;
 	}
 
 	hr{
-		width: 80%;
+		width: 100%;
 	}
 
 	.right {
@@ -106,12 +163,12 @@ hr {
 	}
 	#logo {
 		display: block;
-		margin-left: 2em;
+		margin: 0 auto;
 	}
-	
+
 	.slots {
 		display: flex;
-	  	flex-wrap: wrap;
+	  flex-wrap: wrap;
 		width: 80%;
 		padding: 1em;
 		justify-content: center;
@@ -119,12 +176,14 @@ hr {
 		color: #2d3c49;
 		font-size: 26px;
 	}
-}
+	#linked{
+		text-align: center;
+		padding: 0.5em;
+	}
 
 @media screen and (max-width: 800px) and (min-width: 361px) {
-	.worktitle {
+	#worktitle {
 		font-size: 40px;
-		padding-left: 6em;
 	}
 
 	hr {
