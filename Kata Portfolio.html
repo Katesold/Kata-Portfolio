@@ -5,45 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Kata Katona</title>
     <link rel="stylesheet" type="text/css" href="main1.css">
     </head>
   <body>
+    <div id="nav">
+       	<ul>
+           	<li><a href="#home">Home</a></li>
+           	<li><a href="#worktitle">Works</a></li>
+           	<li><a href="#contact">Contact</a></li>
+       	</ul>
+  	</div>
   	<header class="head">
   		<div class="head1">
 	  		<div class="right">
-	  			<h1>KATA KATONA</h1>
+	  			<h1 id="home">KATA KATONA</h1>
 	  			<h3>FRONT-END DEVELOPER</h3>
 	  		</div>
 	  		<img id="logo" src="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/kk-logo.png?raw=true" alt="Kata logo">
   		</div>
   		<hr>
   	</header>
-  	
+
   	<div class="mainpic">
   		<img id="designPic" src="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/designs-a4.png?raw=true" alt="Kata designs" width="1000" height="750">
   	</div>
   	<section class="designs">
-  		<h2 class="worktitle">Featured Works</h2>
+  		<h2 id="worktitle">Featured Works</h2>
   		<div class="flex-container">
 	  		<div class="visuals">
 		  		<div class="slots">
 			  		<img id="autumn" src="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/pattern-for-web.png?raw=true" alt="autumn pattern design" width="350" height="270">
-			  		<p><strong>AUTUMN DESIGN</strong> <br>created using Adobe Illustrator</p>
-			  		<a href="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/pattern-for-web.png?raw=true">https://goo.gl/yH9Ki8</a>
+			  		<p><a href="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/pattern-for-web.png?raw=true"><strong><span style="color: darkturquoise">AUTUMN DESIGN</span></strong></a> <br>created using Adobe Illustrator</p>
+
 		  		</div>
 		  		<div class="slots">
 			  		<img id="exp" src="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/double%20exp.jpg?raw=true" alt="double exposure design" width="350" height="270">
-			  		<p><strong>DOUBLE EXPOSURE DESIGN</strong> <br>created using Adobe Photoshop</p>
-			  		<a href="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/double%20exp.jpg?raw=true">https://goo.gl/bnoL5a</a>
+			  		<p><a href="https://github.com/Katesold/Kata-Portfolio/blob/df91ea478f8d1d39fa42ea48ac5dc30f07807688/double%20exp.jpg?raw=true"><strong><span style="color: darkturquoise">DOUBLE EXPOSURE DESIGN</span></strong></a> <br>created using Adobe Photoshop</p>
+
 		  		</div>
 		  		<div class="slots">
 			  		<img id="smoke" src="https://github.com/Katesold/Kata-Portfolio/blob/master/smokey%20small.png?raw=true" alt="smoke effect design" width="350" height="270">
-			  		<p><strong>SMOKE EFFECT DESIGN</strong> <br>created for Black History Month using Adobe Photoshop</p>
-			  		<a href="https://github.com/Katesold/Kata-Portfolio/blob/master/smokey%20small.png?raw=true">https://goo.gl/eSmV7K</a>
+			  		<p id="last-img"><a href="https://github.com/Katesold/Kata-Portfolio/blob/master/smokey%20small.png?raw=true"><strong><span style="color: darkturquoise">SMOKE EFFECT DESIGN</span></strong></a> <br>created for Black History Month using Adobe Photoshop</p>
+
+		  		</div>
+          <div class="slots">
+			  		<img id="pixels" src="https://github.com/Katesold/Kata-Portfolio/blob/master/pixels.jpg?raw=true" alt="Pixels" width="350" height="270">
+			  		<p id="pixel-art"><a href="index.html" target="_blank"><strong><span style="color: darkturquoise">Pixel Art Maker Web App</span></strong></a> <br>created using javaScript and jQuery</p>
+
 		  		</div>
 		  	</div>
   		</div>
+      <div>
+        <h1>Pixel Art</h1>
+      </div>
   	</section>
+    <footer>
+        <p id="contact">
+          Contact me by email: katalap@gmail.com
+        </p>
+        <a id="linked" href=https://www.linkedin.com/in/kata-katona-developer/><img src="https://image.flaticon.com/icons/png/512/34/34227.png" alt="linkedin logo" width="25" height="25"></a>
+
+    </footer>
+    <script src="app.js"></script>
   </body>
   </html>
